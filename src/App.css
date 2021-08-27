@@ -64,6 +64,7 @@ body {
   border-left: 5px solid #041757;
 }
 .task h3 {
+  font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -113,4 +114,28 @@ body {
   text-align: center;
   color: #041757;
   margin-bottom: 10px;
+}
+@media (max-width:500px) {
+  html{
+    font-size: 14px;
+  }
+  .task-container {
+    max-width: 350px;
+  }
+}
+@media (max-width:400px) {
+  html{
+    font-size: 12px;
+  }
+  .task-container {
+    max-width: 300px;
+  }
+}
+@media (max-width:300px) {
+  html{
+    font-size: 12px;
+  }
+  .task-container {
+    max-width: 250px;
+  }
 }
